@@ -6,10 +6,9 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" type="text/css" href="./reset.css">
-        <link rel="stylesheet" type="text/css"  href="./Parte2CSS.css">
+        <link rel="stylesheet" type="text/css"  href="./style.css">
     </head>
     <body>
-        <! -- Cabeçalho -- >
         <header class="cabecalho">
             <div class="container">
                 <figure class="cabecalho_logoPicPro">
@@ -21,7 +20,6 @@
             </div>
         </header>
 
-        <! -- Conteúdo principal da página -- >
         <main>
             <section class="detalhesConta">
                 <div class="container">
@@ -63,47 +61,47 @@
                         <li class="detalhesConta_tipoTransacao detalhesConta_tipoTransacao_cobrar" id="4">
                             <figure>
                                 <img src="./img/cobrar-icon.png" alt="Ícone Cobrar">
-                            </figure> 
+                            </figure>
                             <p>Cobrar</p>
                         </li>
-                    </ul> 
+                    </ul>
                 </div>
             </section>
             <section class="transacoes">
-                <! -- Div Geral -- >
+
                 <div class="container">
-                    <! -- Div Selecione forma de pagamento -- >
+
                     <div class="transacoes_formasPagamento mostrar">
                         <p>Selecione a forma de pagamento</p>
                         <img src="./img/banner.png" alt="banner Pic Pay">
                     </div>
-                    <! -- Div QR code -- >
+
                     <div data-id="1" class="transacoes_qrCode">
                         <img src="./img/qrcode-imagem.png" alt="Imegem QR Code">
                         <p>@larissaperinoto</p>
                         <button>Cobre um amigo</button>
                         <a href="">Compartilhar meu código</a>
                     </div>
-                    <! -- Div Pix -- >
+
                     <div data-id="2" class="transacoes_pix">
                         <img src="./img/pix-logo.png" alt="Imagem Pix">
                         <div>
                             <img src="./img/pix1.png" alt="Ícone opção Pix">
                             <p>Envie por CPF/CNPJ, telefone,e-mail ou chave aleatória</p>
                         </div>
-                        <div> 
+                        <div>
                             <img src="./img/pix2.png" alt="Ícone opção Pix">
                             <p>Insira um código Pix Copia e Cola para enviar um pagamento</p>
                         </div>
                     </div>
-                    <! -- Div Boleto -- >
+
                     <div data-id="3" class="transacoes_boleto">
                         <img src="./img/boleto.png" alt="Imagem boleto">
                         <h2>Pagar com código de barras</h2>
                         <p>Você pode parcelar em até 12x no cartão ou usar seu saldo em carteira pra pagar à vista</p>
                         <input type="text" placeholder="Insira o código de barras">
                     </div>
-                    <! -- Div Cobrar -- >
+
                     <div data-id="4" class="transacoes_cobrar">
                         <img src="./img/cobrar.png" alt="Ícone cobrar">
                         <h2>Cobrar</h2>
@@ -117,7 +115,7 @@
 
             </section>
 
-            <! -- Rodapé -->
+
             <footer class="rodape">
                 <div class="container">
                     <ul class="rodape_menu">
@@ -155,6 +153,6 @@
                 </div>
             </footer>
         </main>
-        <script src="./Parte3JavaScript.js"></script>
+        <script src="./script.js"></script>
     </body>
 </html>
