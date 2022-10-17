@@ -8,7 +8,7 @@ O desafio foi elaborar uma página de pagamentos semelhante a que o Pic Pay disp
 
 ### Tecnologias e Ferramentas
 
-Para a elaboração dessa aplicação foi utilizado HTML, CSS e JavaScript.
+Para a elaboração dessa aplicação foi utilizado HTML, CSS e JavaScript. Os ícones da aplicação foram disponibilizados pela [Kenzie Academy](https://kenzie.com.br/).
 
 ### Execução
 
